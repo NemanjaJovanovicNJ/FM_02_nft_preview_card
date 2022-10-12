@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 35rem;
+  padding: 2.5rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1.2rem;
+}
+
+.img-box {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.img-eye {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+.img-box:hover .img-eye {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+}
+
+.coat {
+  display: none;
+}
+
+.img-box:hover .coat {
+  display: block;
+  position: absolute;
+
+  border-radius: 9px;
+  background-color: rgba(0, 255, 247, 0.532);
+  width: 100%;
+  height: 100%;
+}
+
+.img-equilibrium {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.heading-equilibrium:link,
+.heading-equilibrium:visited {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  margin-bottom: 2rem;
+}
+
+.heading-equilibrium:hover,
+.heading-equilibrium:active {
+  color: rgba(0, 255, 247, 0.882);
+}
+
+.text-equilibrium {
+  margin-top: 2rem;
+  font-size: 1.9rem;
+  color: rgba(139, 172, 218, 0.75);
+  font-weight: 300;
+
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+.nft-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.eth-value p {
+  color: rgba(0, 255, 247, 0.882);
+}
+.time p {
+  color: rgba(139, 172, 218, 0.75);
+}
+
+.border {
+  width: 100%;
+  height: 0.3px;
+  margin: 0 auto;
+  background-color: rgba(139, 172, 218, 0.497);
+  margin-bottom: 2rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+.user-name {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgba(139, 172, 218, 0.75);
+}
+
+.img-user {
+  height: 4rem;
+  border: 1px solid rgba(255, 255, 255, 0.584);
+  border-radius: 50%;
+}
+
+.jules-wyvern:link,
+.jules-wyvern:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  margin-bottom: 2rem;
+}
+
+.jules-wyvern:hover,
+.jules-wyvern:active {
+  color: rgba(0, 255, 247, 0.882);
+}
